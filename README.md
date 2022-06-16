@@ -47,10 +47,6 @@ We take an example of building a ***Pytorch CPU python3 inference*** container.
     cd deep-learning-containers 
     pip install -r src/requirements.txt
     ``` 
-4. Perform the initial setup
-    ```shell script
-    bash src/setup.sh pytorch
-    ```
 
 #### Note: This is an example as below: first build ***Pytorch inference CPU python3*** container image, second run ***object detection sample*** by this image.
 ### Building your image
